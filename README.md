@@ -654,7 +654,7 @@ su -c "kfm start"
 如果确实需要开机自启（自行承担风险），可修改 `service.sh`：
 
 ```sh
-# ⚠️ 不推荐 — 如果 rustfrida 出问题会卡 logo
+# 不推荐 — 如果 rustfrida 出问题会卡 logo
 (sleep 60 && /data/adb/ksu/bin/kfm start) &
 ```
 
